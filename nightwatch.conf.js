@@ -2,7 +2,7 @@ import glob from 'glob';
 
 let collectedTests = [];
 
-glob.sync("tests/functional/**/*.js").forEach(file => {
+glob.sync("tests/nightwatch/**/*.js").forEach(file => {
     collectedTests.push(file);
 });
 
